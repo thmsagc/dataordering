@@ -1,6 +1,6 @@
-## Algoritmos de Ordenação de Dados
+# Algoritmos de Ordenação de Dados
 
-# Heap Sort
+## Heap Sort
     O método utilizado foi receber uma string do usuário
     referente ao nome do arquivo (com o tipo). A partir
     desta entrada serão aplicado os algoritmos necessários
