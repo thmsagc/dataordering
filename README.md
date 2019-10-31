@@ -9,6 +9,6 @@
     
    • [Heap Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/HEAP%20SORT)
    
-### Thomás Augusto Gouveia Chaves - CI/UFPB
+#### Thomás Augusto Gouveia Chaves - CI/UFPB
 
-### thomaschaves@cc.ci.ufpb.br
+#### thomaschaves@cc.ci.ufpb.br
