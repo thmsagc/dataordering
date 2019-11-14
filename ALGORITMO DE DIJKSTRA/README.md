@@ -1,4 +1,4 @@
-# Implementação do Algoritmo Heap Sort
+# Implementação do Algoritmo de Dijkstra
     O Algoritmo de Dijkstra consiste em uma solução para o
     problema do caminho mínimo, da teoria dos grafos. Funciona
     em conjunto com uma fila de prioridade mínima (implementada
