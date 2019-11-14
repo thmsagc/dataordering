@@ -10,5 +10,14 @@
    • [Heap Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/HEAP%20SORT)
 
 #   
+## Algoritmo de Dijkstra
+    --
+   • [Algoritmo de Dijkstra](https://github.com/thmsagc/thms-ordenacao/tree/master/ALGORITMO%20DE%20DIJKSTRA)
+
+#   
+
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
 #### thomaschaves@cc.ci.ufpb.br
+
+
+
