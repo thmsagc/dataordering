@@ -19,4 +19,6 @@
 
 #   
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
+#### Júlio Cesar Basílio Alves - CI/UFPB
 #### thomaschaves@cc.ci.ufpb.br
+#### juliocesarbasilio0@gmail.com
