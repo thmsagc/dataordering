@@ -11,7 +11,9 @@
 
 #   
 ## Algoritmo de Dijkstra
-    --
+    O Algoritmo de Dijkstra consiste em uma solução para o
+    problema do caminho mínimo.
+    
    • [Algoritmo de Dijkstra](https://github.com/thmsagc/thms-ordenacao/tree/master/ALGORITMO%20DE%20DIJKSTRA)
 
 #   
