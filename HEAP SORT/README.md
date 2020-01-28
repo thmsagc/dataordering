@@ -1,3 +1,8 @@
+# Implementação do Algoritmo Heap Sort
+    Esta implementação do algoritmo foi realizada utilizando a linguagem C.
+
+    @version 28/01/2020
+    
 # Introdução aos Heaps(binários)
    Um heap binário é um vetor de elementos que pode ser visto como uma árvore binária praticamente completa (pelo menos até o penúltimo nível), onde cada nó da árvore representa um elemento do vetor. Um heap binário H é possui dois atributos chave: comprimento[H], representando comprimento total do heap(número de elementos máximo); tamanho_do_heap[H], representando o número de elementos no heap. 
    
