@@ -2,7 +2,7 @@
     Esta implementação do algoritmo foi realizada em conjunto 
     com uma fila de prioridade mínima, utilizando a linguagem C++.
 
-    @version 14/11/2019
+    @version 28/01/2020
 
 # O Algoritmo de Dijkstra
         O Algoritmo de Dijkstra consiste em uma solução para o
