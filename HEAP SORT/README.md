@@ -5,17 +5,16 @@
    
    Os heaps binários podem ser mínimos ou máximos, possuindo propriedades individuais que os definem entre estes dois tipos. Um heap binário máximo é aquele onde os valores dos "pais" são sempre maiores do que os de seus filhos, sendo a raiz da árvore o nó de maior valor. Um heap binário mínimo é definido de maneira análoga ao máximo, a raiz é o elemento de menor valor, e os "pais" possuem valor menor que os de seus "filhos".
    
-        Os heaps binários possuem sub-rotinas especiais que são utilizadas para a manutenção deste tipo de estrutura:
-        
-        Entrada: A é o arranjo a ser processado, e i o nó alvo.
-            É uma sub-rotina que garante a propriedade de heap máximo, trocando (se
-        necessário) a posição de elementos da árvore.
-            Para que esta rotina seja executada corretamente, devemos pressupor que
-        os filhos deste nó i sejam ambos heaps máximo.
-    - BUILD_MAX_HEAP(A)
-        Entrada: A é o arranjo a ser processado.
-            Basicamente esta sub-rotina executa o MAX_HEAPIFY de baixo para cima
-        em um arranjo, com loop, e tem como saída um heap binário máximo.
+   Os heaps binários possuem sub-rotinas especiais que são utilizadas para a manutenção deste tipo de estrutura:
+   
+   - MAX_HEAPIFY(A, i)
+   Entrada: A é o arranjo a ser processado, e i o nó alvo.
+   É uma sub-rotina que garante a propriedade de heap máximo, trocando (se necessário) a posição de elementos da árvore.
+   Para que esta rotina seja executada corretamente, devemos pressupor queos filhos deste nó i sejam ambos heaps máximo.
+   - BUILD_MAX_HEAP(A)
+   Entrada: A é o arranjo a ser processado.
+   Basicamente esta sub-rotina executa o MAX_HEAPIFY de baixo para cima
+   em um arranjo, com loop, e tem como saída um heap binário máximo.
         
  # Algoritmo Heapsort
    O algoritmo Heapsort tem como objetivo a ordenação dos elementos de um arranjo A. Ele começa transformando o arranjo A em um heap binário máximo. Em seguida, troca os elementos raiz e final de A (maior e menor valor respectivamente) e, logo após, decrementa o tamanho_do_heap, de modo que o maior valor do heap posteriormente se torne o primeiro elemento do arranjo A. 
