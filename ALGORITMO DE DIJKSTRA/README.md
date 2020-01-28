@@ -44,7 +44,7 @@
     mínimo de um vértice a até a origem. E, em seguida, gera um arquivo com
     os resultados encontrados.
     
-# Referências
+# Referência
 - Algoritmos: teoria e prática. TH Cormen, CE Leiserson, RL Rivest, C Stein. Editora Campus 2, 2002.
 
 #   
