@@ -16,6 +16,13 @@
     
    • [Algoritmo de Dijkstra](https://github.com/thmsagc/thms-ordenacao/tree/master/ALGORITMO%20DE%20DIJKSTRA)
 
+#
+## Codificação de Huffman
+    O algoritmo de Huffman é a base para os procedimentos de
+    compressão e descompressão de dados.
+    
+   • [Codificação de Huffman](https://github.com/thmsagc/ordenacaodedados/tree/master/CODIFICA%C3%87%C3%83O%20DE%20HUFFMAN)
+
 #   
 
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
