@@ -56,6 +56,8 @@ https://en.wikipedia.org/wiki/Huffman_coding
 
 https://en.wikipedia.org/wiki/Variable-length_code
 
+https://www.techiedelight.com/huffman-coding/
+
 
 #   
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
