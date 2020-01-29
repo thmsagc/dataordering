@@ -1,4 +1,4 @@
-# Implementação do Algoritmo Heap Sort
+# Implementação da Cofidificação de Huffman
     Esta implementação do algoritmo foi realizada utilizando a linguagem C++.
 
     @version 28/01/2020
