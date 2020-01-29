@@ -26,11 +26,9 @@
    
    Como pode ser observado o menor valor de A se tornou a raiz do arranjo,quebrando a propriedade de heap máximo. Por este motivo, chama-se a sub-rotina MAX_HEAPIFY na raiz, transformando o arranjo A em um heap binário máximo novamente. Estse procedimentos em loop ordena todos os elementos de um arranjo, do maior para o menor.
 
-# Algoritmo Heapsort
+# Referência
 Algoritmos: teoria e prática. TH Cormen, CE Leiserson, RL Rivest, C Stein. Editora Campus 2, 2002.
-    
 
-    @version 28/01/2020
 
 #   
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
