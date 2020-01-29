@@ -51,9 +51,6 @@
 # Decodificação
    A decodificação tem como base o fato de que caminho da raiz para qualquer nó da folha é o código de bits de cada elemento, definido inicialmente.
    
-# Detalhes de implementação do programa
-   Os nós da árvore binária que será utilizada no programa terá quatros peças chaves: uma variável do tipo caractere sem sinal [0, 255], que armazenará um caractere qualquer; uma variável inteira, que armazenará a frequência de ocorrência do caractere; uma variável string, que armazenará o código de bit que representa o caminho da raiz até o nó; e os ponteiros para os filhos direito e esquerdo do nó.
-
 # Referência
 https://en.wikipedia.org/wiki/Huffman_coding
 
