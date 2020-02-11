@@ -1,3 +1,9 @@
+/*
+	IMPLEMENTAÇÂO DO ALGORITMO DE DIJKSTRA
+	@author Thomás Augusto Gouveia Chaves
+	@version 11/02/2020
+*/
+
 #include "dijkstra.h"
 
 int main(int argc, char **argv) {
