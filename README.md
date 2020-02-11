@@ -1,12 +1,26 @@
 # Algoritmos de Ordenação de Dados
 
 ## Heap Sort
-    O Heapsort é um algoritmo de ordenação de elementos
+    O Heap Sort é um algoritmo de ordenação de elementos
     pertencentes a um vetor.
     
    • [Heap Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/HEAP%20SORT)
 
-#   
+#
+## Insertion Sort
+    O Insertion Sort é um algoritmo de ordenação de elementos
+    pertencentes a um vetor.
+    
+   • [Insertion Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/INSERTION%20SORT)
+
+#  
+## Selection Sort
+    O Selection Sort é um algoritmo de ordenação de elementos
+    pertencentes a um vetor.
+    
+   • [Selection Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/SELECTION%20SORT)
+
+#  
 ## Algoritmo de Dijkstra
     O Algoritmo de Dijkstra consiste em uma solução para o
     problema do caminho mínimo.
