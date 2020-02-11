@@ -1,6 +1,11 @@
-Problema: Caminho mínimo
-Instância - solução
-dij10 - 5183
-dij20 - 3190
-dij40 - 8928
-dij50 - 6764
+RESULTADO DA INSTÃ‚NCIA dij.txt
+1 a 0: 270 
+1 a 1: 0 
+1 a 2: 2903 
+1 a 3: 2715 
+1 a 4: 2564 
+1 a 5: 2755 
+1 a 6: 2996 
+1 a 7: 4008 
+1 a 8: 5217 
+1 a 9: 5453
