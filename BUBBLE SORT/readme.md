@@ -10,7 +10,7 @@
    
 
 # Detalhes do programa criado
-   O programa requere como entrada um arquivo instância, que representa um vetor com n elementos inteiros. Em seguida, aloca os valores do arquivo em um vetor e aplica o algoritmo Insertion Sort.
+   O programa requere como entrada um arquivo instância, que representa um vetor com n elementos inteiros. Em seguida, aloca os valores do arquivo em um vetor e aplica o algoritmo Bubble Sort.
    
 # Referência
 https://pt.wikipedia.org/wiki/Bubble_sort
