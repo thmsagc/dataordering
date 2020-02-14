@@ -73,7 +73,7 @@ void Grafo::ler_arquivo(string dir){
 
 vector<int> initialize_single_source(int vertices, int v_origem, vector<int> &p);
 void dijkstra(Grafo g, vector<int> &d, vector<int> &p);
-void relax(pair<int, int> noAtual, int vizinho, Grafo data, vector<pair<int, int>> &heap, vector<int> &dist, vector<int> &p);
+void relax(pair<int, int> u, pair<int,int> v, int w, vector<pair<int, int>> &fila, vector<int> &d, vector<int> &p);
 
 void fp_decreaseKey(vector<pair<int, int>> &fp, int valor, int i);
 pair<int, int> fp_extractMin(vector<pair<int, int>> &fp);
