@@ -70,14 +70,12 @@ void relax(pair<int, int> u, int id_v, Grafo g, vector<pair<int, int>> &fila, ve
     int w = g.getMatriz()[u.first][v.first];
     if(v.second > u.second + w){
     	d[v.first] = u.second + w;
-
     	fp_decreaseKey(fila, (w + u.second), id_v);
     	p[id_v] = u.first;
     }
 }
 
 /* FILA DE PRIORIDADE */
-
 void fp_decreaseKey(vector<pair<int, int>> &fp, int chave, int i){
     if(chave < fp[i].second){
         fp[i].second = chave;
