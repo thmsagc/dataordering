@@ -45,12 +45,15 @@ void dijkstra(Grafo g, vector<int> &d, vector<int> &p){
     for(int i = 0; i < g.getNumVertices(); i++)
     	fp_minInsert(fila, i, d[i]);
 
-
+	//dijkstra
     while(!fila.empty()){
-	    pair<int, int> u = fp_extractMin(fila);
-	    S[u.first] = true;
-	    for(int id_v = 0; id_v < fila.size(); id_v++)
-	        relax(u, id_v, g, fila, d, p);
+	    pair<int, int> u = fp_extractMin(fila); 		//origem
+	    S[u.first] = true; 								//visitados
+	    for(int id_dest = 0; id_dest < id_dest.size(); id_v++){
+			pair<int, int> v = fila[id_dest]; 				//destino
+			int w = g.getMatriz()[u.first][v.first]; 	//aresta
+	        relax(u, v, w, fila, d, p);
+	    }
     }
 }
 
@@ -64,13 +67,11 @@ vector<int> initialize_single_source(int vertices, int v_origem, vector<int> &p)
 	return d;
 }
 
-void relax(pair<int, int> u, int id_v, Grafo g, vector<pair<int, int>> &fila, vector<int> &d, vector<int> &p){
-	pair<int, int> v = fila[id_v];
-    int w = g.getMatriz()[u.first][v.first];
+void relax(pair<int, int> u, pair<int, int> v, int w, vector<pair<int, int>> &fila, vector<int> &d, vector<int> &p){
     if(v.second > u.second + w){
     	d[v.first] = u.second + w;
-    	fp_decreaseKey(fila, (w + u.second), id_v);
-    	p[id_v] = u.first;
+    	fp_decreaseKey(fila, (w + u.second), v.first);
+    	p[v.first] = u.first;
     }
 }
 
