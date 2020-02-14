@@ -38,7 +38,6 @@ int main(int argc, char **argv) {
 }
 
 void dijkstra(Grafo g, vector<int> &d, vector<int> &p){
-
 	//vértices que foram visitados
     vector<bool> S(g.getNumVertices());
     //fila de prioridade
