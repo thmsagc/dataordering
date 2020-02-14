@@ -50,7 +50,7 @@ void dijkstra(Grafo g, vector<int> &d, vector<int> &p){
 	    pair<int, int> u = fp_extractMin(fila); 		//origem
 	    S[u.first] = true; 								//visitados
 	    for(int id_dest = 0; id_dest < fila.size(); id_dest++){
-			pair<int, int> v = fila[id_dest]; 				//destino
+			pair<int, int> v = fila[id_dest]; 			//destino
 			int w = g.getMatriz()[u.first][v.first]; 	//aresta
 	        relax(u, v, w, fila, d, p);
 	    }
