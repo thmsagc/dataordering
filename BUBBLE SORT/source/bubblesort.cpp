@@ -18,9 +18,9 @@ int main(int argc, char **argv){
 
 void bubble(vector<int> &vetor){
 	for(int i = 0; i < vetor.size(); i++){
-		if(vetor[i+1] > vetor[i]){
-			swap(vetor[i+1], vetor[i]);
-			i = 0;
+		for(int j = i+1; j < vetor.size(); j++){
+			if(vetor[i] < vetor[j])
+				swap(vetor[i], vetor[j]);
 		}
 	}
 }
