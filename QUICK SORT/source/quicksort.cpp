@@ -17,6 +17,7 @@ int main(int argc, char **argv){
 }
 
 void quick(vector<int> &v, int inicio, int fim){
+	if(inicio == fim) return;
 	int meio = ordena(v, inicio, fim);
 	quick(v, inicio, meio-1);
 	quick(v, meio+1, fim);
