@@ -1,7 +1,7 @@
 /*
-	ImplementaÁ„o do algoritmo Merge Sort
-	@author Thom·s Augusto Gouveia Chaves
-	@version 18/02/2020
+	Implementa√ß√£o do algoritmo Merge Sort
+	@author Thom√°s Augusto Gouveia Chaves
+	@version 20/02/2020
 */
 
 #include "mergesort.h"
@@ -15,7 +15,7 @@ int main(int argc, char **argv){
 
 	ifstream instancia(argv[1], ios::in);
 	if(!instancia){
-		puts("Erro ao criar arquivo de saÌda!");
+		puts("Erro ao criar arquivo de sa√≠da!");
 		exit(1);
 	}
 
@@ -31,7 +31,7 @@ int main(int argc, char **argv){
 
 	ofstream resultado("resultado.txt");
 	if(!resultado){
-		puts("Erro ao criar arquivo de saÌda!");
+		puts("Erro ao criar arquivo de sa√≠da!");
 		exit(1);
 	}
 	printf("Elementos ordenados: %d\n", vetor.size());
@@ -44,39 +44,40 @@ int main(int argc, char **argv){
 
 
 vector<int> merge_sort(vector<int> &v, int inicio, int tamanho){
-	if(n < 1)
+	int p = tamanho/2;
+	if(p < 1)
 		return;
-	int meio = tam/2;
-	merge_sort(v, inicio, meio);
-	merge_sort(v, meio+1, tam);
-	intercalacao(v, inicio, meio, tam);
+	merge_sort(v, inicio, p);
+	merge_sort(v, p+1, tamanho);
+	intercalacao(v, inicio, meio, tamanho);
 }
 
 void intercalacao(vector<int> &v, int inicio, int meio, int fim){
 	int i = inicio;
 	int j = meio + 1;
 	int k = inicio;
-	vector<int> aux(v.size());
-	aux = v;
+	vector<int> aux(v.size()) = v;
+
 	while(i <= meio && j <= fim){
 		if(aux[i] < aux[j]){
 			v[k] = aux[i];
-			i++;
+			i++;		
 		} else {
 			v[k] = aux[j];
 			j++;
 		}
 		k++;
 	}
-	while(i <= meio){
+
+	for(i; i <= meio; i++){
 		v[k] = aux[i];
-		i++;
 		k++;
 	}
-	while(j <= fim){
-		v[k] = aux[j];
+
+	for(j; j <= fim; j++){
+		v[k] = aux[j];	
 		j++;
 		k++;
 	}
+	return;
 }
-
