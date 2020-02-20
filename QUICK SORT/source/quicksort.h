@@ -1,5 +1,5 @@
-#ifndef BUBBLESORT_H
-#define BUBBLESORT_H
+#ifndef QUICKSORT_H
+#define QUICKSORT_H
 
 #include <iostream>
 #include <fstream>
@@ -8,6 +8,6 @@
 
 using namespace std;
 
-void bubble(vector<int> &vetor);
+void quick(vector<int> &vetor);
 
 #endif
