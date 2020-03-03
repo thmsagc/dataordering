@@ -17,26 +17,28 @@ int main(int argc, char **argv){
 }
 
 void quick(vector<int> &v, int inicio, int fim){
-	if(inicio == fim) return;
-	int meio = ordena(v, inicio, fim);
-	quick(v, inicio, meio-1);
-	quick(v, meio+1, fim);
-}
+	int i, f, indice, aux;
+	i = inicio;
+	f = fim-1;
+	indice = v[(inicio + fim)/2];
 
-void ordena(vector<int> &v, int inicio, int fim){
-	int pivor = fim;
-	bool marcou = false;
-	int marcado = 0;
+	while(i <= f){
+		while(v[i] < indice && i < fim)
+			i++;
 
-	for(int i = 0; i < (fim-1); i++){
-		if(v[i] > v[pivor] && marcou == false){
-			marcou = true;
-			marcado = i;
+		while(v[f] > indice && f > inicio)
+			f--;
 
-		} else if(v[i] < v[pivor] && marcou == true){
-			swap(v[marcado] , v[i]);
-			marcado++;
+		if(i <= f){
+			aux = v[i];
+			v[i] = v[f];
+			v[f] = aux;
+			i++;
+			f--;
 		}
 	}
-	swap(marcado, pivor);
+	if(f > inicio)
+		quicksort(v, inicio, f+1);
+	if(i < fim)
+		quicksort(v, i, fim);
 }
