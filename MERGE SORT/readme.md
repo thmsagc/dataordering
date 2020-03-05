@@ -1,7 +1,7 @@
 # Implementação do Algoritmo Merge Sort
     Esta implementação do algoritmo foi realizada utilizando a linguagem C++.
 
-    @version 18/02/2020   
+    @version 04/03/2020   
         
  # Algoritmo Merge Sort
    O Merge Sort é um algoritmo que, dado um arranjo A, reorganiza-o utilizando o paradigma dividir para conquistar. É recomendavelmente aplicado a vetores com número elevado de elementos.
@@ -14,7 +14,7 @@
    
 # Referência
 https://pt.wikipedia.org/wiki/Merge_sort
-
+https://www.youtube.com/watch?v=JSceec-wEyw
 
 #   
 #### Thomás Augusto Gouveia Chaves - CI/UFPB
