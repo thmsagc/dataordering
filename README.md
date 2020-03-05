@@ -36,6 +36,13 @@
    • [Heap Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/HEAP%20SORT)
 
 #
+## Insertion Sort
+    O Insertion Sort é um algoritmo de ordenação de elementos
+    pertencentes a um vetor.
+    
+   • [Insertion Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/INSERTION%20SORT)
+
+# 
 ## Merge Sort
     O Merge Sort é um algoritmo de ordenação de elementos
     pertencentes a um vetor. É mais viável sua aplicação
@@ -44,13 +51,13 @@
    • [Merge Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/MERGE%20SORT)
 
 #
-## Insertion Sort
-    O Insertion Sort é um algoritmo de ordenação de elementos
+## Radix Sort
+    O Radix Sort é um algoritmo de ordenação de elementos
     pertencentes a um vetor.
     
-   • [Insertion Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/INSERTION%20SORT)
+   • [Raix Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/RADIX%20SORT)
 
-#  
+# 
 ## Selection Sort
     O Selection Sort é um algoritmo de ordenação de elementos
     pertencentes a um vetor.
