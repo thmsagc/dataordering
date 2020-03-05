@@ -22,6 +22,13 @@
    • [Bubble Sort](https://github.com/thmsagc/thms-ordenacao/tree/master/BUBBLE%20SORT)
 
 #
+## Counting Sort
+    O Counting Sort Sort é um algoritmo de ordenação de elementos
+    pertencentes a um vetor.
+    
+   • [Counting Sort](https://github.com/thmsagc/ordenacaodedados/tree/master/COUNTING%20SORT)
+
+#
 ## Heap Sort
     O Heap Sort é um algoritmo de ordenação de elementos
     pertencentes a um vetor.
