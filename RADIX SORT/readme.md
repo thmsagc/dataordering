@@ -20,7 +20,7 @@ COUNTING_SORT(VETOR, BASE)
       
       VETOR RESULT(TAMANHO[VETOR])    
      
-      PARA CADA i (INICIADO EM 0) ← ATÉ TAMANHO[VETOR] 
+      PARA CADA i (INICIADO EM 0) ← ATÉ TAMANHO[VETOR]  
          
          COUNTER[VETOR[i]] += 1   
          
