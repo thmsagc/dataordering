@@ -15,20 +15,13 @@
 # PSEUDO-CÓDIGO
 
 COUNTING_SORT(VETOR, BASE)
-
       VETOR COUNTER(10]) INICIADO COM 0    
-      VETOR RESULT(TAMANHO[VETOR]) 
-      
+      VETOR RESULT(TAMANHO[VETOR])    
       PARA CADA i (INICIADO EM 0) ← ATÉ TAMANHO[VETOR] 
-      
-         COUNTER[VETOR[i]] += 1 
-         
+         COUNTER[VETOR[i]] += 1   
       PARA CADA i (INICIADO EM 1) ← ATÉ TAMANHO[VETOR] 
-      
          COUNTER[i] = COUNTER[i-1] + COUNTER[i] 
-         
       PARA CADA i (INICIADO EM 0) ← ATÉ TAMANHO[VETOR] 
-      
          RESULT[COUNT[VETOR[i]]--] = VETOR[i] 
 RADIX_SORT(VETOR) 
       MAIOR → VETOR->MAIOR 
