@@ -1,4 +1,4 @@
-# Algoritmos de Manipulação de Dados
+# Algoritmos de Ordenação de Dados
 
 ## Algoritmo de Dijkstra
     O Algoritmo de Dijkstra consiste em uma solução para o
